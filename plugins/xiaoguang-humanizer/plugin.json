@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "xiaoguang-humanizer",
+  "version": "1.2.0",
+  "description": "Edit Chinese and English prose to remove AI writing habits while preserving meaning and voice.",
+  "author": {
+    "name": "ArB1t3r",
+    "url": "https://github.com/ArB1t3r"
+  },
+  "homepage": "https://github.com/ArB1t3r/xiaoguang-humanizer",
+  "repository": "https://github.com/ArB1t3r/xiaoguang-humanizer",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "humanizer",
+    "chinese",
+    "english"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "小光Humanizer",
+        "shortDescription": "改掉中英文里的空话、套话和翻译腔，保留原意。",
+        "developerName": "ArB1t3r",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "使用小光Humanizer改写下面文字，保留原意，只给最终稿。"
+        ]
+      }
+    }
+  }
+}

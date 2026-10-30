@@ -1,0 +1,20 @@
+{
+  "name": "xiaoguang-skills",
+  "interface": {
+    "displayName": "小光Skills"
+  },
+  "plugins": [
+    {
+      "name": "xiaoguang-humanizer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/xiaoguang-humanizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

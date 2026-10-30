@@ -2,7 +2,7 @@
   "schema_version": "1",
   "id": "xiaoguang-humanizer",
   "display_name": "小光Humanizer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "agent-skill",
   "repository": "https://github.com/ArB1t3r/xiaoguang-humanizer",
   "license": "MIT",
@@ -58,6 +58,29 @@
     "quick_zh": "prompts/quick-start.zh.txt",
     "quick_en": "prompts/quick-start.en.txt",
     "full": "prompts/xiaoguang-humanizer-full.txt",
-    "scope": "current conversation unless saved in host-supported persistent instructions"
+    "scope": "current conversation unless saved in host-supported persistent instructions",
+    "status": "legacy prompt exports; not skill installation and not the default onboarding route"
+  },
+  "installation": {
+    "entrypoint": "INSTALL.md",
+    "runtime_path": "plugins/xiaoguang-humanizer/skills/xiaoguang-humanizer",
+    "skill_archive": "https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-skill.zip",
+    "plugin_path": "plugins/xiaoguang-humanizer",
+    "marketplace": ".agents/plugins/marketplace.json",
+    "verification": "docs/agent-integration.md#verify-installation",
+    "persistent_installation_required": true
+  },
+  "distribution": {
+    "skill_files": [
+      "SKILL.md",
+      "LICENSE",
+      "agents/openai.yaml",
+      "references/anti-patterns.md",
+      "references/chinese.md",
+      "references/english.md",
+      "references/evaluation-cases.md",
+      "references/sources.md",
+      "references/source-manifest.json"
+    ]
   }
 }

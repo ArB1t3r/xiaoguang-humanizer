@@ -1,4 +1,4 @@
-小光Humanizer / Xiaoguang Humanizer — v1.1.0
+小光Humanizer / Xiaoguang Humanizer — v1.2.0
 完整指令版 / Full portable instructions
 
 请把本文件作为当前对话中改写、润色与起草任务的编辑规则；其他任务按用户请求处理。下方已包含全部编辑规则与例子，无需访问仓库、安装软件或读取其他文件。中文任务用中文规则，英文任务用英文规则，混合或双语任务用两者。示例仅供理解改法，不是待改正文。尚无用户正文或笔记时，只回复“小光Humanizer已准备好，请发来要处理的文字。”

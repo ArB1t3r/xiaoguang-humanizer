@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 from build_portable import build as build_portable
+from build_distribution import check_distribution
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -51,6 +52,8 @@ def validate():
     require(manifest["display_name"] == "小光Humanizer", "Display name mismatch")
     local_file(manifest["entrypoint"])
     local_file(manifest["integration_guide"])
+    local_file(manifest["installation"]["entrypoint"])
+    check_distribution()
     for kind in ("quick_zh", "quick_en", "full"):
         local_file(manifest["chat_entrypoints"][kind])
     portable = local_file(manifest["chat_entrypoints"]["full"])
@@ -101,6 +104,7 @@ def validate():
         "version": manifest["version"],
         "status": "passed",
         "checks": ["metadata consistency", "reference files", "local links", "portable bundle freshness",
+                   "native skill and plugin parity", "marketplace target",
                    "protected fixture spans"],
         "note": "Package validation only; model writing quality is not evaluated.",
     }

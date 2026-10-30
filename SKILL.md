@@ -8,7 +8,7 @@ description: >-
   text and drafting from supplied notes, with optional bilingual output and voice samples.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   research_date: "2026-10-30"
 ---
 
@@ -23,7 +23,6 @@ Treat AI writing habits as editing anti-patterns. Remove them at the level of th
 - 所有任务读取 [共用反模式](references/anti-patterns.md)。 / Read the shared anti-pattern catalog for every task.
 - 中文读 [中文规则](references/chinese.md)；英文读 [English rules](references/english.md)。混合文本或双语交付读两份。 / Load the guide for each output language.
 - 来源比较只在研究或维护时读 [研究与取舍](references/sources.md)；修改技能时使用 [回归用例](references/evaluation-cases.md)。 / Research and evaluation files are for maintenance.
-- 安装或自动化集成时读 [Agent 接入说明](docs/agent-integration.md) 和 [agent.json](agent.json)；普通改写不需要加载。 / Load integration metadata only for installation or automation work.
 
 ## 任务约定 / Editing brief
 

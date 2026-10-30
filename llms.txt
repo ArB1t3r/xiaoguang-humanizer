@@ -4,16 +4,19 @@
 
 ## Agent entrypoints
 
+- [Install](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/INSTALL.md): Start here when asked to learn or install the skill. Persist the complete package and verify host discovery.
 - [Manifest](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/agent.json): Skill identity, version, capabilities, and relative loading paths.
 - [Instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/SKILL.md): Read before editing.
 - [Integration](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/docs/agent-integration.md): Installation and task conventions.
 
-## Chat without installation
+## Distribution
 
-- [Quick Chinese instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/prompts/quick-start.zh.txt): Self-contained instructions for the current conversation.
-- [Quick English instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/prompts/quick-start.en.txt): Self-contained instructions for the current conversation.
-- [Full portable instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/prompts/xiaoguang-humanizer-full.txt): All editing rules and examples in one text attachment; no external loading required.
-- [Platform guide](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/docs/platform-guide.md): ChatGPT, Doubao, and WorkBuddy setup for nontechnical users.
+- [Native skill package](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-skill.zip): Import into a skill manager or install in a supported skill directory.
+- [Runtime directory](https://github.com/ArB1t3r/xiaoguang-humanizer/tree/main/plugins/xiaoguang-humanizer/skills/xiaoguang-humanizer): Install this complete directory, not a summary of its contents.
+- [Plugin marketplace](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/.agents/plugins/marketplace.json): ChatGPT/Codex plugin discovery.
+- [Platform guide](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/docs/platform-guide.md): Native installation, persistence scope, and invocation for each supported route.
+
+Legacy files under prompts/ are text exports, not installed skills. Do not use them as a silent fallback for an installation request.
 
 ## Editing references
 
