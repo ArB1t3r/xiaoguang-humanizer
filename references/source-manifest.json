@@ -1,0 +1,707 @@
+{
+  "research_date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "scope": "8 Wikipedia pages and 10 public skill repositories; entrypoint and selected-reference review",
+  "github": [
+    {
+      "repo": "blader/humanizer",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+          "url": "https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "500b53c0d29cd3219d160b5f9a109c0969f706aec74b49a4a081d2026ba48ec7",
+          "url": "https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+          "url": "https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/SKILL.md"
+        }
+      ],
+      "commit": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
+      "commit_date": "2026-10-28T07:17:33Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "op7418/Humanizer-zh",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7",
+          "url": "https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c4f42c5f590b2845608c3913754e0339db0783481efb6d5ec90144fb721bd1d4",
+          "url": "https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df",
+          "url": "https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/SKILL.md"
+        }
+      ],
+      "commit": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
+      "commit_date": "2026-09-23T02:24:26Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "hardikpandya/stop-slop",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+          "url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+          "url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310",
+          "url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/SKILL.md"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+          "url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/references/examples.md"
+        },
+        {
+          "path": "references/phrases.md",
+          "sha256": "4ca1b7e97123b5c67eff3dc97e5e977332e0b24021265c1553888a93ec33fa93",
+          "url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/references/phrases.md"
+        },
+        {
+          "path": "references/structures.md",
+          "sha256": "ffbf1316c7fb5aaf552de005609a64a9639b546ecd76bfb0e482864d5bbe6f58",
+          "url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/references/structures.md"
+        }
+      ],
+      "commit": "8da1f030185bdfe8471220585162991eaeb970e9",
+      "commit_date": "2026-03-17T18:50:36Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "RobinZorro86/humanizer-zh-plus",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "0f4e8821d3215bf06ed92f97bfd83f828e805e8dcd5b73768ea07e2443fecdf4",
+          "url": "https://github.com/RobinZorro86/humanizer-zh-plus/blob/f450953d241cb40c7bcc9ccc9b82a56ffa21a088/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "010455d4e608b2a94b068942db1e0393b99c285c1b41f66a1a0c29b9c96d8e9f",
+          "url": "https://github.com/RobinZorro86/humanizer-zh-plus/blob/f450953d241cb40c7bcc9ccc9b82a56ffa21a088/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "0faacdef4eb676fde5c0b911deeb367eca81fa94d7dc4e6d33f2ee307d53a73c",
+          "url": "https://github.com/RobinZorro86/humanizer-zh-plus/blob/f450953d241cb40c7bcc9ccc9b82a56ffa21a088/SKILL.md"
+        },
+        {
+          "path": "references/chinese-patterns.md",
+          "sha256": "bd8293685301cf5fc3a4daf02d68bd8713f23a6404a50cf4eb36dcf53e9c5969",
+          "url": "https://github.com/RobinZorro86/humanizer-zh-plus/blob/f450953d241cb40c7bcc9ccc9b82a56ffa21a088/references/chinese-patterns.md"
+        },
+        {
+          "path": "references/pattern-catalog.md",
+          "sha256": "844952741b1d27e880e8d22a51d59e8a6a768407d60545bfe49bed1e7e86df43",
+          "url": "https://github.com/RobinZorro86/humanizer-zh-plus/blob/f450953d241cb40c7bcc9ccc9b82a56ffa21a088/references/pattern-catalog.md"
+        }
+      ],
+      "commit": "f450953d241cb40c7bcc9ccc9b82a56ffa21a088",
+      "commit_date": "2026-08-05T15:41:11Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "ai-zixun/humanizer-zh",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "609132fb364baa7688c086c5baa267ebb88edf32ea431d2dbf3e745d39576d3f",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7fdde2bc15316b842853c4b4b136d7355a6b3d485fc6d6e8a7c94d6f4f8d3ae9",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "d7ef1115ef9f05697bf08dc0218983e0c8fcb472e5c33eb4bb1d6faa200c0a32",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/SKILL.md"
+        },
+        {
+          "path": "references/corpus-quickpick.md",
+          "sha256": "b96642965981e96d89feb7561c3f9ec54d197c0a44194584c0deb0500bed9074",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/corpus-quickpick.md"
+        },
+        {
+          "path": "references/corpus.md",
+          "sha256": "bc413788f8afbd051dc200993e56f7fb285e2be0fdb63e1fea249f21097ddef8",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/corpus.md"
+        },
+        {
+          "path": "references/patterns.md",
+          "sha256": "d65f714ea6f160cfb030c374ad33bf77f15a86c70ee82a4d18236a8ac0ff6491",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/patterns.md"
+        },
+        {
+          "path": "references/voices/fengtang.md",
+          "sha256": "b7c2f0cfb564a10d37ef0e400892287afa33c8ba85d6743610d1a1e18b86dbd3",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/fengtang.md"
+        },
+        {
+          "path": "references/voices/hefan.md",
+          "sha256": "f9d0532de5ef5b4f4cbc7176724120af804a4209f74409cc4a7a33d22f0ae9a4",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/hefan.md"
+        },
+        {
+          "path": "references/voices/helaoshi.md",
+          "sha256": "fbb169d2f0fedb1ae25300840123a3b17c1527c0add2d80df2a6ef4f6ba67cfb",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/helaoshi.md"
+        },
+        {
+          "path": "references/voices/index.md",
+          "sha256": "149a5314b76bf1edef4094d0dc5c20f302b6ee516fa91613e61ab0a473bedc07",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/index.md"
+        },
+        {
+          "path": "references/voices/lishanglong.md",
+          "sha256": "4a5b64649c63be4f074e695f79699127e57e2d4f217b61fc1295e0b3d74456f0",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/lishanglong.md"
+        },
+        {
+          "path": "references/voices/liuzichao.md",
+          "sha256": "375f8f104c2e8c2af5182f10b5feeb128368dd6f5caf821b4fc6bf4ce8a16b34",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/liuzichao.md"
+        },
+        {
+          "path": "references/voices/lixiaolai.md",
+          "sha256": "ff516c95f6eec46094c2595442a597ad5aa3bc79950fca7875791ee1f4429b07",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/lixiaolai.md"
+        },
+        {
+          "path": "references/voices/luozhenyu.md",
+          "sha256": "69795cf2abf05c5dca581d9eb1f6f01818d4b10d78170578ae23cc73987394cf",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/luozhenyu.md"
+        },
+        {
+          "path": "references/voices/wujun.md",
+          "sha256": "8a5951493e10d5838e5a799c001017d1b502579b3212f047e48a3034719ad9d9",
+          "url": "https://github.com/ai-zixun/humanizer-zh/blob/f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3/references/voices/wujun.md"
+        }
+      ],
+      "commit": "f75f1ac9735c4f10da1bba0148e0ea7228c5c3b3",
+      "commit_date": "2026-05-22T01:54:45Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "keez97/humanizer",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "3f4328feac30108112b451121bd653a34a1516c3e11e255805f9cdec77a857ac",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b0f333e2f715994d508e5019d56dfb36d36c261ec755d88cd3f1da0c08ce2b62",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "18a7ca7fb361c00b9817f8b17c2f7bfeffd2bc463a984f76a01ab7b27ee11401",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/SKILL.md"
+        },
+        {
+          "path": "references/DETECTION-LIMITS.md",
+          "sha256": "bcfe4cae1cfc6abc14a335c883d71ba90a2ec5a340e124a6f83c6236f1172d26",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/references/DETECTION-LIMITS.md"
+        },
+        {
+          "path": "references/EXAMPLE.md",
+          "sha256": "97a3ffbed54b2c87d58231ac81084bb439776b769224af08d386381ead016935",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/references/EXAMPLE.md"
+        },
+        {
+          "path": "references/SOURCES.md",
+          "sha256": "d6e4b45724b6dd1b83df6e69e8b160ae2873e40278911529ce2aa54b6b69f381",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/references/SOURCES.md"
+        },
+        {
+          "path": "references/VOICE-CALIBRATION.md",
+          "sha256": "5c1125f4e4cb1fd4f2fb08157e00a0ac54ffebe78f9b1232438f2905cc898116",
+          "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/references/VOICE-CALIBRATION.md"
+        }
+      ],
+      "commit": "2d9a116fa9caee2c3466a7c7d419cbe02b35a470",
+      "commit_date": "2026-07-30T10:49:35Z",
+      "license": "NOASSERTION"
+    },
+    {
+      "repo": "Aboudjem/humanizer-skill",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "192fce177e861e3b0e6888edbd74fcd42b6e05da542d55c62f1cf8070af81528",
+          "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "9bb8bacd073676aa79b8683ead7bcaefb3154950a12bc92f9efc165f23af02e3",
+          "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/README.md"
+        },
+        {
+          "path": "skills/humanizer/SKILL.md",
+          "sha256": "71f0825d5ccc3b466d78b1656c71b35332931dc653271e1ab6b04f787299d9c6",
+          "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/skills/humanizer/SKILL.md"
+        },
+        {
+          "path": "skills/humanizer/references/always-on-templates.md",
+          "sha256": "549a763cf9fb13bcf761f1a460152d1af254ccce7fe7aaa0d95c5238c045f949",
+          "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/skills/humanizer/references/always-on-templates.md"
+        },
+        {
+          "path": "skills/humanizer/references/patterns.md",
+          "sha256": "62bf554f7edbf4d2fd95b6c6cde6509e4536de5cee55f5cb4c2b09a0b26c7156",
+          "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/skills/humanizer/references/patterns.md"
+        },
+        {
+          "path": "skills/humanizer/references/patterns.zh.md",
+          "sha256": "dcfa4ba92eb5cc75061d67d739bd35feefdda93e19b7ee8a7835b0e44073af1b",
+          "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/skills/humanizer/references/patterns.zh.md"
+        }
+      ],
+      "commit": "a58df065367550b6ce40ff3f648335018d8e0589",
+      "commit_date": "2026-09-06T18:45:21Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "quqxui/context-aware-humanizer",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "17af4aabdf17c764416f040777189197c2a5ab8817f051eec52320b29e0abfd5",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7602f84cdf3c0a0e176f990768b1bf65f62cb0afd3694de73d1a963ae5c96b94",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "a0f01c5b45897aadd9e2ccc475169cdc7a6ba6f36209eea80e85399a5c3dc2e9",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/SKILL.md"
+        },
+        {
+          "path": "references/academic-paper/en.md",
+          "sha256": "d76574bd6d66eb1b020d64855cfc28a471d4872f47e2dabf444502cd21aeecf5",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/academic-paper/en.md"
+        },
+        {
+          "path": "references/academic-paper/zh.md",
+          "sha256": "f16c0215a0037d810ad8ec78761de106dd95f8a99bfd8b8279ff5be71e236e93",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/academic-paper/zh.md"
+        },
+        {
+          "path": "references/academic-slides/en.md",
+          "sha256": "5e8ad202df83e652bc59efd8239283334b3a42fb8537058806c5a7d12aeb8182",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/academic-slides/en.md"
+        },
+        {
+          "path": "references/academic-slides/zh.md",
+          "sha256": "6a5012e7a2e6993e7cc3110657295db8db06712d9e6af3c8849ebcc3e584828e",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/academic-slides/zh.md"
+        },
+        {
+          "path": "references/academic-talk/en.md",
+          "sha256": "2be1bca606328453e4deaec8fcd7ea254d0524b609eed5aef263862a7b7bc4ab",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/academic-talk/en.md"
+        },
+        {
+          "path": "references/academic-talk/zh.md",
+          "sha256": "37f270715b3132ff991033f61d5b43c87b64c959acc54d9ddaa7a9cce5269f2c",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/academic-talk/zh.md"
+        },
+        {
+          "path": "references/chat/en.md",
+          "sha256": "05eb4e2319b33efa67f1ce0dcc892fde0722be1f8e79b29f4bbeb27c1a7a6566",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/chat/en.md"
+        },
+        {
+          "path": "references/chat/zh.md",
+          "sha256": "48a348f42f2ddba85163d1378a0ebbddb1b03d5843bf9e771c401bc19a96d983",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/chat/zh.md"
+        },
+        {
+          "path": "references/documentation/en.md",
+          "sha256": "f09c4b3c9dca8fe4df1c736e36717f7b1b67098bb7fe68ca7d25a33980951bbe",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/documentation/en.md"
+        },
+        {
+          "path": "references/documentation/zh.md",
+          "sha256": "1af226c181d911bbdf72aceaff5037d919790eb375d3d25ad7e63aefe8edb9bf",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/documentation/zh.md"
+        },
+        {
+          "path": "references/grant-proposal/en.md",
+          "sha256": "2df69cf6be169131b80ff5b592be6cdd1937a557a166a10e7f9b66c96e43c7d9",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/grant-proposal/en.md"
+        },
+        {
+          "path": "references/grant-proposal/zh.md",
+          "sha256": "9d492e01ff4453e4fd8ab1cd84ef09c6c42709b9da129c90b639cdcb7ec7cb50",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/grant-proposal/zh.md"
+        },
+        {
+          "path": "references/peer-review/en.md",
+          "sha256": "39ee8c8448a8352df226e2a60eac454bd2c3d5f7544e1a8f8f5bab25e2625ba9",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/peer-review/en.md"
+        },
+        {
+          "path": "references/peer-review/zh.md",
+          "sha256": "9ebbeb341d07fcc765eddf2e03ec22874d94af3d3891097b964a5226fae36bd6",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/peer-review/zh.md"
+        },
+        {
+          "path": "references/reviewer-response/en.md",
+          "sha256": "39d8a8583bfb1640b7dff8298083d6c71b191dc677d3d7697495ce8e993cee7f",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/reviewer-response/en.md"
+        },
+        {
+          "path": "references/reviewer-response/zh.md",
+          "sha256": "dfb1dde77b11d3865f734741a5c0d7c8327279f991f1b9693e1a890dce25020f",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/reviewer-response/zh.md"
+        },
+        {
+          "path": "references/style-memory.md",
+          "sha256": "f8ec46c6e65e234089cc0c28bdb005c57542efe496a3783cd7f9cd8c37c5675c",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/style-memory.md"
+        },
+        {
+          "path": "references/wechat-article/en.md",
+          "sha256": "5f0c322cdefef09f8af499322d99ef34d7fe374c1aa703e70c770b0b1b418058",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/wechat-article/en.md"
+        },
+        {
+          "path": "references/wechat-article/zh.md",
+          "sha256": "1c4dde2881ddc6381c6f7c735f386de833d7197292c376a3898d49995dbd1f20",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/wechat-article/zh.md"
+        },
+        {
+          "path": "references/work-message/en.md",
+          "sha256": "f5c750605df01332df9aa868c4e50ce036594dbee61f6bd095c1125e34cc8560",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/work-message/en.md"
+        },
+        {
+          "path": "references/work-message/zh.md",
+          "sha256": "162937a2b05494b25adc9dd8974e096dcd29f05445d3f449179b229d946070c1",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/work-message/zh.md"
+        },
+        {
+          "path": "references/x-post/en.md",
+          "sha256": "560796c4a4fb130fb9e8d32275455cb29ab9d1055e4ebf7fdb4bffcefcbf2d04",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/x-post/en.md"
+        },
+        {
+          "path": "references/x-post/zh.md",
+          "sha256": "48c1dece90759718864ea2047bc0851c0f59577a21cba8eed1821ea01daae95c",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/x-post/zh.md"
+        },
+        {
+          "path": "references/xiaohongshu/en.md",
+          "sha256": "c37d9ea0d4b16bf0a0d99f76c54ace56393e53830652bf4a4f68fc6f9f168b84",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/xiaohongshu/en.md"
+        },
+        {
+          "path": "references/xiaohongshu/zh.md",
+          "sha256": "2201a3a644d660a8db06344494b5656e9204dfa02cefb1cbe544282a142cf37a",
+          "url": "https://github.com/quqxui/context-aware-humanizer/blob/e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610/references/xiaohongshu/zh.md"
+        }
+      ],
+      "commit": "e99e02e3d469d5f9e6c1a387f9e3cb2fb41dc610",
+      "commit_date": "2026-10-09T05:04:01Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "thebpandey/write-like-a-human",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "1915e7023491cef75d000b7dc98046d1d321ef0b83a31e65b2724b18a5f16e21",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "bbe584c58eb09424023eec8e1e4be8bd1ae00e82307a74e6f09d156a68f0b800",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/SKILL.md"
+        },
+        {
+          "path": "chatgpt/write-like-a-human/SKILL.md",
+          "sha256": "8e2df6ce3ca9fa4f9691c7dfb2ee482c494f2b50d4782d42a2165b2fe9acc6df",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/chatgpt/write-like-a-human/SKILL.md"
+        },
+        {
+          "path": "chatgpt/write-like-a-human/references/ai-patterns.md",
+          "sha256": "216e2548206514abbe4431a6779977ccca311252ec598f89416d72afd1255944",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/chatgpt/write-like-a-human/references/ai-patterns.md"
+        },
+        {
+          "path": "chatgpt/write-like-a-human/references/banned-vocabulary.md",
+          "sha256": "618bfc707063217ea0a32ee3b8b372307d422d2bb784bf01b428b92f8b726250",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/chatgpt/write-like-a-human/references/banned-vocabulary.md"
+        },
+        {
+          "path": "chatgpt/write-like-a-human/references/channels.md",
+          "sha256": "60fed328145b95c1306c9ec5d1c37e25dbb34ea67211c58f53d3176c91a8b9c9",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/chatgpt/write-like-a-human/references/channels.md"
+        },
+        {
+          "path": "chatgpt/write-like-a-human/references/onboarding.md",
+          "sha256": "8e9eed7712e7e33643411fd5f1b18332537307902f481039c319ebbc269dde10",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/chatgpt/write-like-a-human/references/onboarding.md"
+        },
+        {
+          "path": "chatgpt/write-like-a-human/references/voices.md",
+          "sha256": "dabefab0595e21c4a27a3bb7375d140682d46f18399e89b400e87a7cb5c0bf33",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/chatgpt/write-like-a-human/references/voices.md"
+        },
+        {
+          "path": "references/ai-patterns.md",
+          "sha256": "e33158643fb7f1019b3c86a470445a7e105b61a78b46ebc3681cf4ee6b0be048",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/references/ai-patterns.md"
+        },
+        {
+          "path": "references/banned-vocabulary.md",
+          "sha256": "32933d181a69a70c49b5f0acbd900621dffe58107eca8681ea72a7e5154c3a86",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/references/banned-vocabulary.md"
+        },
+        {
+          "path": "references/channels.md",
+          "sha256": "50a0b092814314be9bd98987b8f3a2921f3b5fda772d44485da4cb4c27d44880",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/references/channels.md"
+        },
+        {
+          "path": "references/onboarding.md",
+          "sha256": "8dc0eda7e0357bc285d77040e14253674312bd53da1f7ce32706c7fa3fc92389",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/references/onboarding.md"
+        },
+        {
+          "path": "references/voices.md",
+          "sha256": "e6e0a1debf628fb6073c9c10274a6442d6c137911cc4fa6d98d4437443de08e3",
+          "url": "https://github.com/thebpandey/write-like-a-human/blob/21cb119edc4570211209eb501a62abb498e440bc/references/voices.md"
+        }
+      ],
+      "commit": "21cb119edc4570211209eb501a62abb498e440bc",
+      "commit_date": "2026-10-02T22:17:00Z",
+      "license": null
+    },
+    {
+      "repo": "lynote-ai/humanize-text-skill",
+      "retrieved": "2026-10-30",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "e9ac948655f9832b13ff4a242c0a5c2bd8363b6d137ba5234538b23ad1c27f70",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "43e10dc8589d931cf8a94df39686947bafed27e916a21cebbf4e9298a971ed0f",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/README.md"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "de6f88b349798081fb3454e8e4430d276bc27f9fa220d77a6a67b46a451bb934",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/SKILL.md"
+        },
+        {
+          "path": "plugins/humanize-text-skill/skills/humanize-text-skill/SKILL.md",
+          "sha256": "de6f88b349798081fb3454e8e4430d276bc27f9fa220d77a6a67b46a451bb934",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/plugins/humanize-text-skill/skills/humanize-text-skill/SKILL.md"
+        },
+        {
+          "path": "references/README.md",
+          "sha256": "51f1c0af4ddf0a6a46d882aba07d19e33ac03d54f5271116a7e0670f6d1c03ed",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/README.md"
+        },
+        {
+          "path": "references/boundary-cases.md",
+          "sha256": "c27419ed91ecdbbfc5cc67a7a31cfbe7951fcc28bade44efe6f685288d2aca40",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/boundary-cases.md"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "e4c1eb9148817aac16f9a0368f86c219c4f83bf466b64bef84a5024c0dc505f5",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/examples.md"
+        },
+        {
+          "path": "references/human-rubric.md",
+          "sha256": "6b46b14a5635d3c50f0e14807fbab86dc3760cc3e4499b21ff0438d75b88e01a",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/human-rubric.md"
+        },
+        {
+          "path": "references/operation-manual.md",
+          "sha256": "634414cafd08da63bdb9918e7d98ae828309c43cd6df8258b1e0533055353abc",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/operation-manual.md"
+        },
+        {
+          "path": "references/phrases-en.md",
+          "sha256": "d0590eba39b1a9ccea0792251e1f29111667faa24c518db3aa10f5bd7bafee13",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/phrases-en.md"
+        },
+        {
+          "path": "references/phrases-zh.md",
+          "sha256": "d8e063bf01357b8197449cdb3e800cb34c40bf3781fbb9048bcde5c665b44563",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/phrases-zh.md"
+        },
+        {
+          "path": "references/positive-style.md",
+          "sha256": "3788a17c0741adb9aae3e9131bd5174403167fdda39cc411368f95590c40820e",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/positive-style.md"
+        },
+        {
+          "path": "references/protected-spans.md",
+          "sha256": "15bfca1d25cd8cd1336ec0ef59d4f30a54e9e45bc7aeeb6c4b66b9e3d6f4003b",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/protected-spans.md"
+        },
+        {
+          "path": "references/quick-checklist.md",
+          "sha256": "cc55241a6b7f87b78f5b34dde1deba30aa25ba054f168ffd4a9e79a4fae9a4f2",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/quick-checklist.md"
+        },
+        {
+          "path": "references/scene-guardrails.md",
+          "sha256": "ffa1181ed1ec04fd6de9192031112b72c59f8a6487f148c712e454960ed76882",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/scene-guardrails.md"
+        },
+        {
+          "path": "references/scene-packs.md",
+          "sha256": "56edd92d456266b013d0ebf281d0909b2326c9df7c30def6a1f94e0e420d8b2c",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/scene-packs.md"
+        },
+        {
+          "path": "references/severity.md",
+          "sha256": "da3d0fdc8bd58a620d52df7fcdfd8108e5f53ea49a7e50557d0193b60d4de70f",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/severity.md"
+        },
+        {
+          "path": "references/skill-architecture.md",
+          "sha256": "2fc6d951b62387dddd5624b483bf72a6066dcc670260cd53cc1e43e78be017af",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/skill-architecture.md"
+        },
+        {
+          "path": "references/structures.md",
+          "sha256": "91142f7b23f38e2c19803882bc38fef2fb93340b58894112677e03eaa9d3f203",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/structures.md"
+        },
+        {
+          "path": "references/translation-tone.md",
+          "sha256": "c4aea5d10b3ace80670d40aa3e64e813eb7642a390f73f4cda191a4e071902f1",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/translation-tone.md"
+        },
+        {
+          "path": "references/voice-contract.md",
+          "sha256": "0b43ca60ec9239c0bbe9bb5ed7b78a9ad14b4d769486d316a26ce718322bb474",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/voice-contract.md"
+        },
+        {
+          "path": "references/voice/samples.md",
+          "sha256": "51d40b975764f3d65946dfcbeed8f1afaae66b09d48fce2567a209c668343e0a",
+          "url": "https://github.com/lynote-ai/humanize-text-skill/blob/9359e17a8d7d54263adb726f4e6c71e0b0940651/references/voice/samples.md"
+        }
+      ],
+      "commit": "9359e17a8d7d54263adb726f4e6c71e0b0940651",
+      "commit_date": "2026-07-07T13:31:36Z",
+      "license": "MIT"
+    }
+  ],
+  "wikipedia": [
+    {
+      "id": "W1",
+      "title": "Wikipedia:Signs of AI writing",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+      "page_type": "英文专题建议页",
+      "purpose": "共用内容、句型、格式与引用问题的主要线索。",
+      "revision_id": 1382688615
+    },
+    {
+      "id": "W2",
+      "title": "Wikipedia:AI生成文的特徵",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:AI生成文的特徵",
+      "page_type": "中文信息页",
+      "purpose": "中文用法及过度防御、重复表述等补充；不能假定与英文版同步。",
+      "revision_id": 95337857
+    },
+    {
+      "id": "W3",
+      "title": "Wikipedia:Signs of AI use in comments",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_use_in_comments",
+      "page_type": "英文专题建议页",
+      "purpose": "评论中的泛化保证、过度程序化说明与交流套语。",
+      "revision_id": null
+    },
+    {
+      "id": "W4",
+      "title": "Wikipedia:WikiProject AI Cleanup/Guide and resources",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup/Guide",
+      "page_type": "英文专题操作建议页",
+      "purpose": "提供清理工作流程与来源核对背景。",
+      "revision_id": null
+    },
+    {
+      "id": "W5",
+      "title": "Wikipedia:Large language models",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Large_language_models",
+      "page_type": "英文信息页",
+      "purpose": "说明虚构、来源错配与内容核验问题，供保真规则参考。",
+      "revision_id": null
+    },
+    {
+      "id": "W6",
+      "title": "Artificial intelligence content detection",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_content_detection",
+      "page_type": "英文百科条目",
+      "purpose": "理解检测方式和误差；不作为本技能的评分标准。",
+      "revision_id": null
+    },
+    {
+      "id": "W7",
+      "title": "人工智能内容检测",
+      "url": "https://zh.wikipedia.org/wiki/人工智能内容检测",
+      "page_type": "中文百科条目",
+      "purpose": "中文阅读入口，部分研究来自较早年份，不能当成当前工具排名。",
+      "revision_id": null
+    },
+    {
+      "id": "W8",
+      "title": "Wikipedia:Artificial intelligence",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Artificial_intelligence",
+      "page_type": "英文信息索引页",
+      "purpose": "追踪 Wikipedia 内相关页面和规则变化，维护时使用。",
+      "revision_id": null
+    }
+  ],
+  "license_verification": {
+    "keez97/humanizer": "Read LICENSE: MIT; GitHub API reported NOASSERTION",
+    "thebpandey/write-like-a-human": "SKILL.md declares MIT; no standalone LICENSE found in fetched repository tree"
+  }
+}

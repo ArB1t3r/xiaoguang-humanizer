@@ -1,0 +1,20 @@
+# 小光Humanizer
+
+> Chinese and English editing skill for removing AI writing habits while preserving meaning and voice.
+
+## Agent entrypoints
+
+- [Manifest](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/agent.json): Skill identity, version, capabilities, and relative loading paths.
+- [Instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/SKILL.md): Read before editing.
+- [Integration](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/docs/agent-integration.md): Installation and task conventions.
+
+## Editing references
+
+- [Shared patterns](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/references/anti-patterns.md): Load for all editing tasks.
+- [Chinese](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/references/chinese.md): Load for Chinese output.
+- [English](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/references/english.md): Load for English output.
+
+## Maintenance
+
+- [Evaluation](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/references/evaluation-cases.md): Behavioral regression cases.
+- [Sources](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/references/sources.md): Attribution and design decisions.

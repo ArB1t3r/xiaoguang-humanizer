@@ -1,0 +1,4 @@
+interface:
+  display_name: "小光Humanizer"
+  short_description: "消除中英文模板腔、空话与机械结构，保留原意和作者声音"
+  default_prompt: "使用 $xiaoguang-humanizer 去掉这段文字的 AI 味，保留原意和语气，只给最终稿。"

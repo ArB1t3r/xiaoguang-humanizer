@@ -1,0 +1,40 @@
+{
+  "schema_version": "1",
+  "id": "xiaoguang-humanizer",
+  "display_name": "小光Humanizer",
+  "version": "1.0.0",
+  "type": "agent-skill",
+  "repository": "https://github.com/ArB1t3r/xiaoguang-humanizer",
+  "license": "MIT",
+  "entrypoint": "SKILL.md",
+  "integration_guide": "docs/agent-integration.md",
+  "references": {
+    "always": ["references/anti-patterns.md"],
+    "zh": ["references/chinese.md"],
+    "en": ["references/english.md"],
+    "maintenance": ["references/sources.md", "references/evaluation-cases.md"]
+  },
+  "capabilities": {
+    "modes": ["rewrite", "audit", "draft"],
+    "languages": ["zh", "en", "mixed"],
+    "bilingual_output": true,
+    "voice_samples": true
+  },
+  "defaults": {
+    "mode": "rewrite",
+    "language": "preserve",
+    "strength": "standard",
+    "output": "final-text"
+  },
+  "runtime": {
+    "host_agent_required": true,
+    "bundled_model": false,
+    "hosted_api": false,
+    "network_required_for_editing": false
+  },
+  "validation": {
+    "command": "python3 scripts/validate.py",
+    "requires": "Python 3.10+ standard library",
+    "scope": "Package structure and fixture integrity, not model quality"
+  }
+}
