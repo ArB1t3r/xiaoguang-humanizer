@@ -1,20 +1,20 @@
 # 小光Humanizer · Xiaoguang Humanizer
 
-Remove AI writing habits from Chinese and English prose while preserving meaning and voice.
+Cut filler, stock phrases, and awkward translations while keeping your meaning and voice. Works with Chinese, English, and drafts that mix both.
 
-**Open your AI app, paste the instructions, then send your draft. No coding, software installation, or API setup required for chat use.**
+Paste the instructions below into your usual AI chat to start editing. No coding, extra software, or API setup needed.
 
 [中文](README.md) · [Full instructions](prompts/xiaoguang-humanizer-full.txt) · [Agent integration](docs/agent-integration.md) · [Sources](references/sources.md)
 
 ## Copy, paste, and start
 
-Use this in ChatGPT, Doubao, WorkBuddy, or another AI chat that accepts text instructions.
+These steps work in ChatGPT, Doubao, WorkBuddy, and other AI chats that accept text instructions.
 
 1. Start a new conversation in your AI app.
 2. Copy the entire block below into the chat and send it. Use the copy button on desktop or select the text on mobile.
 3. When it says it is ready, send the text you want to edit.
 
-This **quick version** contains the main editing rules and works without opening repository links.
+The quick version below includes the main editing rules. Your AI can use it without opening any links.
 
 ```text
 Use Xiaoguang Humanizer for editing, rewriting, and drafting tasks in this conversation. Remove AI writing habits from Chinese and English prose while preserving meaning and voice. Handle unrelated tasks according to my actual request.
@@ -33,16 +33,18 @@ Editing rules:
 If this message contains no draft, reply only: Xiaoguang Humanizer is ready. Send the text you want to work on.
 ```
 
-Then try:
+Try it on this short draft:
 
 ```text
 Rewrite this while preserving meaning. Return only the final text:
 It is worth noting that registration closes Friday. In other words, Friday is the registration deadline.
 ```
 
-Expected result: **Registration closes Friday.**
+The rewrite should keep the deadline:
 
-The instructions apply within this conversation. Paste them again in a new ordinary chat. Results depend on the model; check facts and meaning before using the rewrite.
+> Registration closes Friday.
+
+Paste the instructions again when you start a new ordinary chat, or use one of the options below to save them. Results vary by model, so check the facts and meaning before using the rewrite.
 
 ## Choose your app
 
@@ -53,14 +55,16 @@ The instructions apply within this conversation. Paste them again in a new ordin
 | [WorkBuddy](https://www.codebuddy.cn/work/) | New task → paste instructions → send draft | Download the skill ZIP below. Open Skills → Add skill → Upload skill. See [official instructions](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market). |
 | Other AI chats | Paste instructions, then the draft | Save the quick version in project or custom-assistant instructions when supported. |
 
-For **all editing rules and examples**, [download the full instructions TXT](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-full.txt). Attach it in a chat that supports text files and send:
+For all the rules and examples, [download the full instructions TXT](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-full.txt). Attach it in a chat that supports text files and send:
 
 ```text
 Read the attached Xiaoguang Humanizer rules and use them for editing tasks in this conversation.
 Ask me for the draft once you have read the file. If you cannot read it, say so.
 ```
 
-You can also [open the file](prompts/xiaoguang-humanizer-full.txt) and paste its contents. It includes all editing guidance, so the AI does not need to browse the repository. Use the quick version if the full text exceeds your app's input limit. For WorkBuddy installation, [download the skill ZIP](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-skill.zip).
+You can also [open the file](prompts/xiaoguang-humanizer-full.txt) and paste its contents. All the editing rules are in the file; no repository access is needed. If it exceeds your app's input limit, use the quick version.
+
+To install the skill in WorkBuddy, [download the skill ZIP](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-skill.zip).
 
 ## Ask for the edit you want
 
@@ -75,7 +79,7 @@ You can also [open the file](prompts/xiaoguang-humanizer-full.txt) and paste its
 
 ## Let an agent connect automatically
 
-For an agent with repository access and skill installation support, paste:
+If your agent can read repositories and install skills, send it this request:
 
 ```text
 Install and use Xiaoguang Humanizer:
@@ -91,10 +95,10 @@ Test on “It is worth noting that registration closes Friday.”
 Return the rewrite, the actual scope of availability, and the installed version and path if applicable.
 ```
 
-[agent.json](agent.json) provides machine-readable entrypoints. The [integration guide](docs/agent-integration.md) covers CLI installation, loading order, and version pinning. Your AI supplies the model; this project has no separate model service or API key.
+Agents can read the skill's name, version, and rule paths from [agent.json](agent.json). The [integration guide](docs/agent-integration.md) explains command-line installation, which rules to load, and how to install a fixed version. Your existing AI does the editing; no separate model service or API key is needed.
 
 ## What is included?
 
-Research covers eight Wikipedia pages and ten public humanizer skills. The package contains **24 shared anti-patterns, six rules for each language, and 12 regression cases**. The rules and examples are newly written; see [attribution and design decisions](references/sources.md).
+We drew on eight Wikipedia pages and ten public humanizer skills to write our own rules and examples. The package covers 24 common writing problems, six rules for each language, and 12 cases for checking rewrites. See [attribution and design decisions](references/sources.md).
 
 [Skill rules](SKILL.md) · [Examples and evaluation cases](references/evaluation-cases.md) · [MIT License](LICENSE)

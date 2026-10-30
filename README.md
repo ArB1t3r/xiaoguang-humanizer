@@ -1,20 +1,20 @@
 # 小光Humanizer
 
-去掉中英文里的 AI 味，保留原意和作者声音。
+改掉空话、套话和翻译腔，保留你的意思和语气。中文、英文和中英混合稿都能用。
 
-**打开你常用的 AI，复制指令，再发原文，就能开始。无需写代码、安装软件或配置 API。**
+把下面的指令发给你常用的 AI，就可以开始改稿。不用写代码、另装软件或配置 API。
 
 [English](README.en.md) · [按平台使用](docs/platform-guide.md) · [完整指令](prompts/xiaoguang-humanizer-full.txt) · [Agent 接入](docs/agent-integration.md)
 
 ## 复制到聊天框，直接用
 
-适用于 ChatGPT、豆包、WorkBuddy 等能接收文字指令的 AI 对话环境。
+ChatGPT、豆包、WorkBuddy 等能接收文字指令的 AI 聊天工具都可以用。
 
-1. 打开你的 AI，新建一个对话。
-2. 复制下面整段文字，粘贴到聊天框并发送。电脑上可点文本框右上角的复制按钮；手机上可长按选择文字。
-3. 收到“已准备好”后，把要改的文章、邮件或文案发过去。
+1. 在 AI 里新建一个对话。
+2. 复制下面整段指令，粘贴并发送。电脑上可点右上角的复制按钮，手机上可长按选择文字。
+3. 收到“已准备好”后，发送要改的文章、邮件或文案。
 
-下面是可独立使用的**快用版**，已经包含主要规则，不需要 AI 打开任何链接。
+这份快用版包含主要编辑规则，直接粘贴就能用，不需要 AI 打开链接。
 
 ```text
 请在本对话的改写、润色和起草任务中使用「小光Humanizer」。目标是消除中英文的 AI 写作特征，保留原意和作者声音。其他任务按我的实际请求处理。
@@ -33,16 +33,18 @@
 如果这条消息没有附正文，请只回复：小光Humanizer已准备好，请发来要处理的文字。
 ```
 
-然后发送你的文字，例如：
+可以先用这段话试试：
 
 ```text
 请改写下面这段，保留原意，只给最终稿：
 在快速变化的时代，沟通的重要性不言而喻。值得注意的是，周会从周四改到周五，地点不变。让我们共同开启高效协作的新篇章。
 ```
 
-期望得到：**周会从周四改到周五，地点不变。**
+改写示例：
 
-这表示当前对话已能按规则改稿。新开普通对话时，再粘贴一次；长期复用见下方。实际效果取决于所用模型，请核对数字、条件和原意。
+> 周会从周四改到周五，地点不变。
+
+指令用于当前对话。新开普通对话时再粘贴一次；想长期使用，可按下表设置。不同模型的改写效果会有差异，拿到稿子后请核对数字、条件和原意。
 
 ## 你用哪个平台？
 
@@ -53,14 +55,16 @@
 | [WorkBuddy](https://www.codebuddy.cn/work/) | 新任务 → 粘贴上面的指令 → 发原文 | 下载技能包，在“技能 → 添加技能 → 上传技能”导入。[步骤](docs/platform-guide.md#workbuddy) |
 | 其他 AI 对话工具 | 同样先发指令，再发原文 | 有项目指令或自定义助手功能时，可将快用版存入其中 |
 
-**想使用全部规则和例子：** [下载完整指令 TXT](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-full.txt)，在支持附件的对话中上传，并发送：
+需要全部规则和例子时，[下载完整指令 TXT](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-full.txt)，在支持附件的对话中上传，并发送：
 
 ```text
 请读取附件中的小光Humanizer编辑规则，用于本对话的改写任务。
 读取成功后请我发送正文；如果无法读取，请直接说明。
 ```
 
-也可以打开[完整指令文件](prompts/xiaoguang-humanizer-full.txt)，复制全文发送。文件已包含全部编辑规则，不需要 AI 联网读仓库。输入太长时用上面的快用版。WorkBuddy 的长期安装使用[技能 ZIP 包](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-skill.zip)。
+也可以打开[完整指令文件](prompts/xiaoguang-humanizer-full.txt)，复制全文发给 AI。规则都在文件里，无需再联网读取仓库；如果超出输入长度限制，就用快用版。
+
+要在 WorkBuddy 中安装技能，请下载[技能 ZIP 包](https://github.com/ArB1t3r/xiaoguang-humanizer/releases/latest/download/xiaoguang-humanizer-skill.zip)。
 
 ## 怎么提要求？
 
@@ -77,7 +81,7 @@
 
 ## 让 agent 自动接入
 
-如果你的 AI 支持读取仓库和安装技能，把下面整段发给它。普通聊天窗口用前面的快用版；WorkBuddy 的界面安装按上表操作。
+如果 AI 能读取仓库并安装技能，把下面这段发给它。普通聊天用前面的快用版；WorkBuddy 上传技能包的步骤见上表。
 
 ```text
 请帮我安装并使用小光Humanizer：
@@ -91,10 +95,10 @@ https://github.com/ArB1t3r/xiaoguang-humanizer
 返回改写结果、实际生效范围，以及成功安装时的版本和位置。
 ```
 
-[agent.json](agent.json) 提供机器可读入口；[接入文档](docs/agent-integration.md) 包含命令行安装、加载顺序和版本固定方法。本项目由你使用的 AI 执行，没有额外的模型服务或 API key。
+Agent 可从 [agent.json](agent.json) 读取名称、版本和规则路径。命令行安装、规则加载顺序和固定版本的方法见[接入文档](docs/agent-integration.md)。改稿由你正在使用的 AI 完成，本项目无需另配模型服务或 API key。
 
 ## 规则从哪里来？
 
-整理自 8 个 Wikipedia 页面和 10 个公开 humanizer 技能，包含 **24 类共用反模式、中文和英文各 6 项专项规则、12 个回归用例**。规则和例子为重新提炼编写，完整出处见[来源记录](references/sources.md)。
+我们参考了 8 个 Wikipedia 页面和 10 个公开 humanizer 技能，重新编写规则和例子：24 类常见写作问题，中文、英文各 6 项专门规则，以及 12 个检查改写结果的用例。出处和取舍见[来源记录](references/sources.md)。
 
 [技能规则](SKILL.md) · [使用示例与检查用例](references/evaluation-cases.md) · [MIT License](LICENSE)
