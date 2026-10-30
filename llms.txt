@@ -8,6 +8,13 @@
 - [Instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/SKILL.md): Read before editing.
 - [Integration](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/docs/agent-integration.md): Installation and task conventions.
 
+## Chat without installation
+
+- [Quick Chinese instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/prompts/quick-start.zh.txt): Self-contained instructions for the current conversation.
+- [Quick English instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/prompts/quick-start.en.txt): Self-contained instructions for the current conversation.
+- [Full portable instructions](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/prompts/xiaoguang-humanizer-full.txt): All editing rules and examples in one text attachment; no external loading required.
+- [Platform guide](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/docs/platform-guide.md): ChatGPT, Doubao, and WorkBuddy setup for nontechnical users.
+
 ## Editing references
 
 - [Shared patterns](https://raw.githubusercontent.com/ArB1t3r/xiaoguang-humanizer/main/references/anti-patterns.md): Load for all editing tasks.

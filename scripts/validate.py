@@ -7,6 +7,8 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote
 
+from build_portable import build as build_portable
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -49,6 +51,11 @@ def validate():
     require(manifest["display_name"] == "小光Humanizer", "Display name mismatch")
     local_file(manifest["entrypoint"])
     local_file(manifest["integration_guide"])
+    for kind in ("quick_zh", "quick_en", "full"):
+        local_file(manifest["chat_entrypoints"][kind])
+    portable = local_file(manifest["chat_entrypoints"]["full"])
+    require(portable.read_text(encoding="utf-8") == build_portable(),
+            "Portable instructions are stale; run python3 scripts/build_portable.py")
     for paths in manifest["references"].values():
         require(isinstance(paths, list), "Reference groups must be arrays")
         for path in paths:
@@ -93,7 +100,7 @@ def validate():
         "skill": name,
         "version": manifest["version"],
         "status": "passed",
-        "checks": ["metadata consistency", "reference files", "local links",
+        "checks": ["metadata consistency", "reference files", "local links", "portable bundle freshness",
                    "protected fixture spans"],
         "note": "Package validation only; model writing quality is not evaluated.",
     }

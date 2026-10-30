@@ -2,21 +2,38 @@
   "schema_version": "1",
   "id": "xiaoguang-humanizer",
   "display_name": "小光Humanizer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "agent-skill",
   "repository": "https://github.com/ArB1t3r/xiaoguang-humanizer",
   "license": "MIT",
   "entrypoint": "SKILL.md",
   "integration_guide": "docs/agent-integration.md",
   "references": {
-    "always": ["references/anti-patterns.md"],
-    "zh": ["references/chinese.md"],
-    "en": ["references/english.md"],
-    "maintenance": ["references/sources.md", "references/evaluation-cases.md"]
+    "always": [
+      "references/anti-patterns.md"
+    ],
+    "zh": [
+      "references/chinese.md"
+    ],
+    "en": [
+      "references/english.md"
+    ],
+    "maintenance": [
+      "references/sources.md",
+      "references/evaluation-cases.md"
+    ]
   },
   "capabilities": {
-    "modes": ["rewrite", "audit", "draft"],
-    "languages": ["zh", "en", "mixed"],
+    "modes": [
+      "rewrite",
+      "audit",
+      "draft"
+    ],
+    "languages": [
+      "zh",
+      "en",
+      "mixed"
+    ],
     "bilingual_output": true,
     "voice_samples": true
   },
@@ -36,5 +53,11 @@
     "command": "python3 scripts/validate.py",
     "requires": "Python 3.10+ standard library",
     "scope": "Package structure and fixture integrity, not model quality"
+  },
+  "chat_entrypoints": {
+    "quick_zh": "prompts/quick-start.zh.txt",
+    "quick_en": "prompts/quick-start.en.txt",
+    "full": "prompts/xiaoguang-humanizer-full.txt",
+    "scope": "current conversation unless saved in host-supported persistent instructions"
   }
 }

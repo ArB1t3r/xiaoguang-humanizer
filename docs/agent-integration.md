@@ -10,7 +10,11 @@ The display name is **小光Humanizer**. The stable skill ID is **xiaoguang-huma
 
 ## Install
 
-After the user authorizes installation, use the host agent's supported skill directory or the [Skills CLI](https://github.com/vercel-labs/skills). Install into the current project unless the user requests global availability.
+Honor the user's installation request and the host's supported mechanism. Use the host agent's skill directory or the [Skills CLI](https://github.com/vercel-labs/skills) when local installation is supported. Install into the current project unless the user requests global availability.
+
+For ordinary chat environments, use the self-contained files listed under `chat_entrypoints` in [agent.json](../agent.json): the quick instructions in Chinese or English, or the full portable instructions. Read their actual contents; a repository URL or README alone does not load the rules. If browsing or file access is unavailable, ask the user to paste the instructions from the README. State that this applies to the current conversation, unless the user saved it in a host-supported persistent instruction setting.
+
+For WorkBuddy, the documented route for a custom package is **Skills → Add skill → Upload skill**. Use the `xiaoguang-humanizer-skill.zip` release asset and the [platform guide](platform-guide.md#workbuddy). Do not assume the repository is in its marketplace or that a generic chat install command imports arbitrary GitHub repositories. Report any UI step still needed instead of claiming success.
 
 ```bash
 npx --yes skills add ArB1t3r/xiaoguang-humanizer --skill xiaoguang-humanizer --agent codex --yes
@@ -21,7 +25,7 @@ Replace `codex` with the intended agent supported by the installer. Add `--globa
 For a fixed version, fetch the release tag into a working directory and install from that checkout:
 
 ```bash
-git clone --branch v1.0.0 --depth 1 https://github.com/ArB1t3r/xiaoguang-humanizer.git xiaoguang-humanizer
+git clone --branch v1.1.0 --depth 1 https://github.com/ArB1t3r/xiaoguang-humanizer.git xiaoguang-humanizer
 python3 xiaoguang-humanizer/scripts/validate.py
 npx --yes skills add ./xiaoguang-humanizer --skill xiaoguang-humanizer --agent codex --yes
 ```
@@ -79,6 +83,6 @@ Check the rewritten opening, paragraph endings, transitions, and final line for 
 python3 scripts/validate.py
 ```
 
-This checks repository metadata, reference paths, linked files, and the protected technical spans in the test fixture. It does not assess model writing quality. After changing editing rules, run the relevant [behavioral cases](../references/evaluation-cases.md) through your agent and review their stated requirements.
+This checks repository metadata, reference paths, linked files, the portable instruction bundle, and the protected technical spans in the test fixture. It does not assess model writing quality or prove installation inside a third-party app. After changing editing rules, regenerate the portable attachment with `python3 scripts/build_portable.py`, then run the relevant [behavioral cases](../references/evaluation-cases.md) through your agent and review their stated requirements.
 
 Review changes before updating a pinned release. Report the installed version, path, and any actual blocker. Do not claim a skill is installed merely because its README was read.

@@ -8,7 +8,7 @@ description: >-
   text and drafting from supplied notes, with optional bilingual output and voice samples.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   research_date: "2026-10-30"
 ---
 
